@@ -99,7 +99,7 @@ li{
     vertical-align: top;
     float: right;
     margin-right: 16%;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
     
   }
   
@@ -140,7 +140,7 @@ li{
   input:checked + .slider:before {
     -webkit-transform: translateX(55px);
     -ms-transform: translateX(55px);
-    transform: translateX(50px);
+    transform: translateX(55px);
   }
   
   
@@ -184,10 +184,22 @@ li{
    .Button_Count{
        outline: none;
        float: right;
+       margin-left: 10%;
+       
+       
        
    }
    button {
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+p{
+    text-overflow:ellipsis;
+    overflow: hidden;
+    color: #222;
+    font-size: 13px;
+    width:80%;
+    white-space:nowrap;
+    font-weight: bold;
 }
