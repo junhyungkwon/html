@@ -81,7 +81,7 @@ li.text_all::before{
     width:100%; 
     position:relative;
     list-style:none;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 li{
     float: left;
@@ -97,9 +97,6 @@ li{
     width: 90px;
     height: 34px;
     vertical-align: top;
-    float: right;
-    margin-right: 16%;
-    margin-bottom: 20%;
     
   }
   
@@ -168,6 +165,7 @@ li{
  
   .slider.round {
     border-radius: 20px;
+    
   }
   
   .slider.round:before {
@@ -177,16 +175,14 @@ li{
         display: inline-block;
         line-height: 20px;
         color: #313131;
-        font-size: 18px;
+        font-size: 17px;
         margin-left: 14cm;
         margin-top: 7px;
     }
    .Button_Count{
        outline: none;
-       float: right;
-       margin-left: 10%;
        
-       
+      
        
    }
    button {
@@ -202,4 +198,8 @@ p{
     width:80%;
     white-space:nowrap;
     font-weight: bold;
+}
+.money{
+    color: black;
+    font-size: 13px;
 }
